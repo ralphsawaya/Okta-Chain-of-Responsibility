@@ -13,7 +13,7 @@
 2- As long as there are **Requests**, in the **Requests Queue**, with status **AVAILABLE_TO_BE_PICKED**, pick that request.  
 3- Check for **AVAILABLE** processor: check availability first for SE, then Lead SE, and finally for Manager SE.  
 4- If no processor available, just wait.  
-5- Once processor selected, the processor starts, **in a thread mode**, processing request and remains in **NOT_AVAILABLE** status for that period of request duration.  
+5- Once processor selected for a request, the processor starts, **in a thread mode**, processing the request and remains in **NOT_AVAILABLE** status for that period of request duration.  
 6- Once request processed, the processor returns to status **AVAILABLE** and the Request is removed from queue.  
 7- Continue until all **Requests** processed.
 
