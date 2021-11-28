@@ -16,3 +16,17 @@
 5- Once processor selected, the processor starts, **in a thread mode**, processing request and remains in **NOT_AVAILABLE** status for that period of request duration.  
 6- Once request processed, the processor returns to status **AVAILABLE** and the Request is removed from queue.  
 7- Continue until all **Requests** processed.
+
+## How to execute the code
+Just copy and paste the code in a python 3.x editor and execute. No extra modules required.
+
+## How to test the code
+To test the code you can play around with the below highlighted values which are the duration of execution of requests:  
+
+![test_code](https://user-images.githubusercontent.com/20292284/143786136-4df5ef8c-f83f-4ce8-bfee-7aee2c3efa6a.png)
+
+
+## Sample outputs:
+[sample_output_1.txt](https://github.com/ralphsawaya/Okta-Chain-of-Responsibility/files/7614365/sample_output_1.txt)  
+
+[sample_output_2.txt](https://github.com/ralphsawaya/Okta-Chain-of-Responsibility/files/7614386/sample_output_2.txt)
