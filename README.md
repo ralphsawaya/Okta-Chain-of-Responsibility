@@ -31,6 +31,7 @@ To test the code you can play around with the below highlighted values which are
 
 ![test_code](https://user-images.githubusercontent.com/20292284/143786136-4df5ef8c-f83f-4ce8-bfee-7aee2c3efa6a.png)
 
+Check the output of the code to see how requests are being processed.
 
 ## Sample outputs:
 [sample_output_1.txt](https://github.com/ralphsawaya/Okta-Chain-of-Responsibility/files/7614365/sample_output_1.txt)  
