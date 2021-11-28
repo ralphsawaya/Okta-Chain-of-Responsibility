@@ -9,7 +9,7 @@
 
 
 ## The Algorithm
-1- Initialized list of **Requests** and list of **Processors**  
+1- Initialize list of **Requests** and list of **Processors**. Initially **REQUESTS** are in AVAILABLE_TO_BE_PICKED status and **Processors** in AVAILABLE status.  
 2- As long as there are **Requests**, in the **Requests Queue**, with status **AVAILABLE_TO_BE_PICKED**, pick that request.  
 3- Check for **AVAILABLE** processor: check availability first for SE, then Lead SE, and finally for Manager SE.  
 4- If no processor available, just wait.  
