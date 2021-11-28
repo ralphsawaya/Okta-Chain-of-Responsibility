@@ -11,7 +11,7 @@
 ## The Algorithm
 1- Initialize the **Requests Queue** and **List of Processors**. Initially **Requests** are in _AVAILABLE_TO_BE_PICKED_ status and **Processors** in _AVAILABLE_ status.  
   
-2- As long as there are **Requests**, in the **Requests Queue**, with status _AVAILABLE_TO_BE_PICKED_, keep looping the queue.  
+2- As long as there are **Requests**, in the **Requests Queue**, with status _AVAILABLE_TO_BE_PICKED_, pick that **Request** for processing.  
   
 3- Check for _AVAILABLE_ **Processor**: check availability first for SE, then Lead SE, and finally for Manager SE.  
   
