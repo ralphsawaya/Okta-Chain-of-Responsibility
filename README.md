@@ -19,7 +19,7 @@
   
 5- Once **Processor** assigned for a **Request**, the request's status turns from _AVAILABLE_TO_BE_PICKED_ to _BEING_PROCESSED_, and the processor's status from _AVAILABLE_ to _NOT_AVAILABLE_. The **Processor** processes the **Request** in a **Thread mode**.   
   
-6- Once **Request** processed, the **Processor** returns to status **AVAILABLE** and the **Request** is removed from **Requests Queue**.  
+6- Once **Request** processed, the **Processor** returns to status _AVAILABLE_ and the **Request** is removed from **Requests Queue**.  
   
 7- Continue until **Requests Queue** is empty.
 
