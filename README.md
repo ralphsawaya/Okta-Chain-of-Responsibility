@@ -17,7 +17,7 @@
   
 4- If no **Processor** available, just wait.  
   
-5- Once **Processor** assigned for a **Request**, the request's status turns from _AVAILABLE_TO_BE_PICKED_ to _BEING_PROCESSED_, and the processor's status from _AVAILABLE_ to _NOT_AVAILABLE_. The **Processor** processes the **Request** in a **Thread mode**.   
+5- Once **Processor** assigned for a **Request**, the request's status turns from _AVAILABLE_TO_BE_PICKED_ to _BEING_PROCESSED_, and the processor's status from _AVAILABLE_ to _NOT_AVAILABLE_. The **Processor** processes, for the duration of the request, the **Request** in a **Thread mode**.   
   
 6- Once **Request** processed, the **Processor** returns to status _AVAILABLE_ and the **Request** is removed from **Requests Queue**.  
   
