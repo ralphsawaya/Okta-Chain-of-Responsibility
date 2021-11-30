@@ -9,19 +9,19 @@
 
 
 ## The Algorithm
-1- Initialize the **Requests Queue** and **List of Processors**. Initially **Requests** are in _AVAILABLE_TO_BE_PICKED_ status and **Processors** in _AVAILABLE_ status.  
+1. Initialize the **Requests Queue** and **List of Processors**. Initially **Requests** are in _AVAILABLE_TO_BE_PICKED_ status and **Processors** in _AVAILABLE_ status.  
   
-2- As long as there are **Requests**, in the **Requests Queue**, with status _AVAILABLE_TO_BE_PICKED_, pick that **Request** for processing.  
+2. As long as there are **Requests**, in the **Requests Queue**, with status _AVAILABLE_TO_BE_PICKED_, pick that **Request** for processing.  
   
-3- Check for _AVAILABLE_ **Processor**: check availability first for SE, then Lead SE, and finally for Manager SE.  
+3. Check for _AVAILABLE_ **Processor**: check availability first for SE, then Lead SE, and finally for Manager SE.  
   
-4- If no **Processor** available, just wait.  
+4. If no **Processor** available, just wait.  
   
-5- Once **Processor** assigned for a **Request**, the request's status turns from _AVAILABLE_TO_BE_PICKED_ to _BEING_PROCESSED_, and the processor's status from _AVAILABLE_ to _NOT_AVAILABLE_. The **Processor** processes, for the duration of the request, the **Request** in a **Thread mode**.   
+5. Once **Processor** assigned for a **Request**, the request's status turns from _AVAILABLE_TO_BE_PICKED_ to _BEING_PROCESSED_, and the processor's status from _AVAILABLE_ to _NOT_AVAILABLE_. The **Processor** processes, for the duration of the request, the **Request** in a **Thread mode**.   
   
-6- Once **Request** processed, the **Processor** returns to status _AVAILABLE_ and the **Request** is removed from **Requests Queue**.  
+6. Once **Request** processed, the **Processor** returns to status _AVAILABLE_ and the **Request** is removed from **Requests Queue**.  
   
-7- Continue until **Requests Queue** is empty.
+7. Continue until **Requests Queue** is empty.
 
 ## How to execute the code
 Just copy and paste the code in a python 3.x editor and execute. No extra modules required.
