@@ -27,6 +27,7 @@
 Just copy and paste the code in a python 3.x editor and execute. No extra modules required.
 
 ## How to test the code
+The provided code is initialized with 3 SE, 1 Lead SE and 1 Manager SE.  
 To test the code you can play around with the below highlighted values which are the durations, in seconds (for sake of demonstration), to process the meeting requests:  
 
 ![test_code](https://user-images.githubusercontent.com/20292284/143786136-4df5ef8c-f83f-4ce8-bfee-7aee2c3efa6a.png)
